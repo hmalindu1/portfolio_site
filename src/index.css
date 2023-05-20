@@ -4,6 +4,11 @@
 @tailwind components;
 @tailwind utilities;
 
+@font-face {
+  font-family: "Thirsty";
+  src: url("./assets/fonts/ThirstyScriptMedium.otf");
+}
+
 :root {
   --black-gradient: linear-gradient(
     144.39deg,
