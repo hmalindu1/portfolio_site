@@ -6,8 +6,8 @@ import {navLinks} from '../constants'
 const Navbar = () => {
   return (
     <nav className="w-full flex py-6 justify-between items-center navbar">
-      <ul className='font-thirsty font-medium text-dimWhite cursor-pointer text-[25px]'>
-        Hashan M. Hemachadra
+      <ul className='font-thirsty font-medium text-white cursor-pointer text-[25px]'>
+        Hashan M. Hemachandra
       </ul>
 
       <ul className='list-none sm:flex hidden justify-end items-center flex-1'>{navLinks.map((nav, index) =>(
