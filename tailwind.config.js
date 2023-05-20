@@ -11,6 +11,7 @@ export const theme = {
     },
     fontFamily: {
       poppins: ["Poppins", "sans-serif"],
+      thirsty: ["Thirsty", "cursive"]
     },
   },
   screens: {
