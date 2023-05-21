@@ -24,6 +24,7 @@ const App = () => {
           <Stack/>
           <Projects/>
           <Testimonials/>
+          <Footer/>
         </div>
       </div>
 
