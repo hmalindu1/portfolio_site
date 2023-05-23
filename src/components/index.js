@@ -6,5 +6,6 @@ import Projects from "./Projects";
 import Services from "./Services";
 import Stack from "./Stack";
 import Testimonials from "./Testimonials";
+import Hero from "./Hero";
 
-export { Navbar, About, Footer, Home, Projects, Services, Stack, Testimonials };
+export { Navbar, About, Footer, Home, Projects, Services, Stack, Testimonials, Hero };
