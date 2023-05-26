@@ -7,5 +7,6 @@ import Services from "./Services";
 import Stack from "./Stack";
 import Testimonials from "./Testimonials";
 import Hero from "./Hero";
+import Tech from "./Tech";
 
-export { Navbar, About, Footer, Home, Projects, Services, Stack, Testimonials, Hero };
+export { Navbar, About, Footer, Home, Projects, Services, Stack, Testimonials, Hero, Tech };
