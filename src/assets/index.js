@@ -27,6 +27,7 @@ import profile_image from "./profile_image.png";
 import react_logo from "./react_logo.png";
 import tailwind_logo from "./tailwind_logo.png";
 import JS_logo from "./JS_logo.png";
+import map from "./map.png";
 
 export {
   airbnb,
@@ -58,4 +59,5 @@ export {
   react_logo,
   tailwind_logo,
   JS_logo,
+  map
 };

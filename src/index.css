@@ -45,9 +45,9 @@
 }
 
 .text-gradient {
-  background: radial-gradient(
-    64.18% 64.18% at 71.16% 35.69%,
-    #f1defa 0.89%,
+  background: linear-gradient(
+    50deg,
+    #e6defa 0.89%,
     #e4bef5 17.23%,
     #cd9df0 42.04%,
     #c37deb 55.12%,
@@ -57,7 +57,6 @@
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
-  text-fill-color: transparent;
 }
 
 .bg-blue-gradient {
@@ -316,4 +315,20 @@
  /* animation: anticlock 20s linear infinite;  /* Add this line */
  margin-left: 30px;
  margin-top: 30px;
+}
+
+.earth {
+  position: absolute;
+  margin-left: 20px;
+  width: 70px;
+  height: 70px;
+  background-image: url("./assets/map.png");
+  border-radius: 50%;
+  background-size: cover;
+  box-shadow: inset 0.5px 0.5px 10px 0px #1d1d1d;
+  animation: spin 30s linear infinite;
+}
+
+@keyframes spin{
+  100%{background-position: 100%;}
 }

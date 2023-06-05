@@ -15,6 +15,25 @@ const Hero = () => (
     <div
       className={`flex-1 ${styles.flexStart} flex-col xl:px-0 sm:px-16 px-6 mb-40 `}
     >
+      <div className="flex flex-row flex-1 justify-between items-center w-full">
+        <h2 className="flex-1 font-poppins font-light ss:text-[30px] text-white">
+          Trying to make an impact <br className="sm:block hidden" />{" "}
+          <span className="font-poppins font-medium ss:text-[70px] leading-[70px]">
+            to the World{" "}
+            <span className="earth">
+            </span>
+          </span>{" "}
+          <br className="sm:block hidden" />{" "}
+          <span className="font-poppins font-medium ss:text-[40px] leading-[50px]">
+            by making
+          </span>{" "}
+          <br className="sm:block hidden" />{" "}
+          <span className="font-poppins font-medium ss:text-[60px] leading-[70px]">
+            Quality Software
+          </span>{" "}
+          <br className="sm:block hidden" />
+        </h2>
+      </div>
       {/* Name and image */}
       <div className="flex flex-row justify-between items-center w-full">
         <div className="flex items-center">
@@ -78,6 +97,5 @@ const Hero = () => (
     </div>
   </section>
 );
-
 
 export default Hero;
