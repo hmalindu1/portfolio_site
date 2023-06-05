@@ -165,7 +165,7 @@
   filter: blur(750px);
 }
 
-.tech {
+.tech-react {
   height: 140px;
   width: 140px;
   background: #11101d;
@@ -175,7 +175,7 @@
   z-index: 0;
 }
 
-.tech-background {
+.tech-react-background {
   height: calc(100% - 5px); /* decrease the height by 10px */
   width: calc(100% - 5px); /* decrease the width by 10px */
   background: #1d1c2f;
@@ -186,8 +186,8 @@
   z-index: 1;
 }
 
-.tech::before,
-.tech::after {
+.tech-react::before,
+.tech-react::after {
   content: "";
   position: absolute;
   inset: 0;
@@ -204,12 +204,61 @@
   animation: rotation 9s linear infinite;
 }
 
-.tech::after {
+.tech-react::after {
   filter: blur(2rem);
 }
 
-.tech-image {
+.tech-react-image {
   width: 55%; 
   height: 50%;
   animation: anticlock 20s linear infinite;  /* Add this line */
+}
+
+.tech-tailwind {
+  height: 100px;
+  width: 100px;
+  background: #11101d;
+  border-radius: 9999px;
+  
+  position: relative;
+  z-index: 6;
+}
+
+.tech-tailwind-background {
+  height: calc(100% - 5px); /* decrease the height by 10px */
+  width: calc(100% - 5px); /* decrease the width by 10px */
+  background: #1d1c2f;
+  border-radius: 9999px;
+  position: absolute;
+  top: 2.5px; /* add 5px to the top */
+  left: 2.5px; /* add 5px to the left */
+  z-index: 1;
+}
+
+.tech-tailwind::before,
+.tech-tailwind::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(
+    var(--gradient-angle),
+    #ffffff -43.27%,
+    #bef3f5 -21.24%,
+    #9dedf0 12.19%,
+    #7de7eb 29.82%,
+    #0ecfd6 51.94%,
+    #0a4e58 90.29%
+  );
+  border-radius: inherit;
+  animation: rotation 9s linear infinite;
+}
+
+.tech-tailwind::after {
+  filter: blur(2rem);
+}
+
+.tech-tailwind-image {
+  width: 40%; 
+  height: 30%;
+ /* animation: anticlock 20s linear infinite;  /* Add this line */
 }

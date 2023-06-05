@@ -25,6 +25,7 @@ import people02 from "./people02.png";
 import people03 from "./people03.png";
 import profile_image from "./profile_image.png";
 import react_logo from "./react_logo.png";
+import tailwind_logo from "./tailwind_logo.png";
 
 export {
   airbnb,
@@ -53,5 +54,6 @@ export {
   people02,
   people03,
   profile_image,
-  react_logo
+  react_logo,
+  tailwind_logo
 };

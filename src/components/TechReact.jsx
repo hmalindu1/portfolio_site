@@ -2,12 +2,12 @@ import styles from "../style";
 import { react_logo } from "../assets";
 
 const TechReact = () => (
-  <div className={`tech`}>
-    <div className={`tech-background ${styles.flexCenter}`}>
+  <div className={`tech-react`}>
+    <div className={`tech-react-background ${styles.flexCenter}`}>
       <img
         src={react_logo}
         alt=""
-        className={`tech-image`}
+        className={`tech-react-image`}
       />
     </div>
   </div>

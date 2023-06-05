@@ -8,6 +8,7 @@ import Stack from "./Stack";
 import Testimonials from "./Testimonials";
 import Hero from "./Hero";
 import TechReact from "./TechReact";
+import TechTailwind from "./TechTailwind";
 
 export {
   Navbar,
@@ -20,4 +21,5 @@ export {
   Testimonials,
   Hero,
   TechReact,
+  TechTailwind
 };
