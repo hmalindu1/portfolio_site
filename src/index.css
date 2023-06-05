@@ -178,7 +178,7 @@
 .tech-background {
   height: calc(100% - 5px); /* decrease the height by 10px */
   width: calc(100% - 5px); /* decrease the width by 10px */
-  background: #11101d;
+  background: #1d1c2f;
   border-radius: 9999px;
   position: absolute;
   top: 2.5px; /* add 5px to the top */
@@ -201,7 +201,7 @@
     #0a4e58 90.29%
   );
   border-radius: inherit;
-  animation: rotation 5s linear infinite;
+  animation: rotation 9s linear infinite;
 }
 
 .tech::after {

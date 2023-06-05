@@ -1,6 +1,6 @@
 import { profile_image } from "../assets";
 import styles from "../style";
-import Tech from "./Tech";
+import TechReact from "./TechReact";
 
 const Hero = () => (
   <section id="home" className={`flex md:flex-row flex-col ${styles.paddingY}`}>
@@ -42,7 +42,7 @@ const Hero = () => (
         className="w-[65%] h-[100%] relative z-[5]"
       />
       <div className="ss:flex hidden md:mr-4 mr-0">
-        <Tech/>
+        <TechReact/>
       </div>
 
       <div className="absolute z-[0] w-[40%] h-[35%] top-0 pink__gradient"/>

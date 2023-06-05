@@ -1,7 +1,7 @@
 import styles from "../style";
 import { react_logo } from "../assets";
 
-const Tech = () => (
+const TechReact = () => (
   <div className={`tech`}>
     <div className={`tech-background ${styles.flexCenter}`}>
       <img
@@ -13,4 +13,4 @@ const Tech = () => (
   </div>
 );
 
-export default Tech
+export default TechReact
