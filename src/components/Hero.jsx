@@ -2,6 +2,7 @@ import { profile_image } from "../assets";
 import styles from "../style";
 import TechReact from "./TechReact";
 import TechTailwind from "./TechTailwind";
+import TechJS from "./TechJS";
 
 /**
  * Renders the hero section of the webpage with a profile image, name, job description, and contact button.
@@ -51,20 +52,25 @@ const Hero = () => (
     <div
       className={`flex-1 flex ${styles.flexStart} md:my-0 my-10 relative mr`}
     >
+      {/* JavaScript logo */}
+      <div className="ss:flex hidden md:mr-4 mr-0 mt-[250px] ml-[-50px]">
+        <TechJS />
+      </div>
       {/* Profile image */}
       <img
         src={profile_image}
         alt="propic"
-        className="w-[65%] h-[100%] relative z-[5]"
+        className="w-[65%] h-[100%] relative z-[5] ml-[-10px]"
       />
       {/* React logo */}
-      <div className="ss:flex hidden md:mr-4 mr-0 ml-[-50px]">
+      <div className="ss:flex hidden md:mr-4 mr-0 ml-[-100px]">
         <TechReact />
       </div>
       {/* Tailwind logo */}
-      <div className="ss:flex hidden md:mr-4 mr-0 ml-[-200px] mt-[600px]">
+      <div className="ss:flex hidden md:mr-4 mr-0 ml-[-150px] mt-[600px]">
         <TechTailwind />
       </div>
+
       {/* Background gradients */}
       <div className="absolute z-[0] w-[40%] h-[35%] top-0 pink__gradient" />
       <div className="absolute z-[1] w-[80%] h-[80%] rounded-full bottom-40 pink__gradient" />

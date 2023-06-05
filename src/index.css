@@ -262,3 +262,58 @@
   height: 30%;
  /* animation: anticlock 20s linear infinite;  /* Add this line */
 }
+
+
+
+
+
+.tech-js {
+  height: 200px;
+  width: 200px;
+  background: #11101d;
+  border-radius: 9999px;
+  
+  position: relative;
+  z-index: 7;
+}
+
+.tech-js-background {
+  height: calc(100% - 5px); /* decrease the height by 10px */
+  width: calc(100% - 5px); /* decrease the width by 10px */
+  background: #222139;
+  border-radius: 9999px;
+  position: absolute;
+  top: 2.5px; /* add 5px to the top */
+  left: 2.5px; /* add 5px to the left */
+  z-index: 1;
+}
+
+.tech-js::before,
+.tech-js::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(
+    var(--gradient-angle),
+    #ffffff -43.27%,
+    #f4f5be -21.24%,
+    #f0f09d 12.19%,
+    #ebe47d 29.82%,
+    #d6bb0e 51.94%,
+    #583f0a 90.29%
+  );
+  border-radius: inherit;
+  animation: rotation 9s linear infinite;
+}
+
+.tech-js::after {
+  filter: blur(2rem);
+}
+
+.tech-js-image {
+  width: 60%; 
+  height: 45%;
+ /* animation: anticlock 20s linear infinite;  /* Add this line */
+ margin-left: 30px;
+ margin-top: 30px;
+}

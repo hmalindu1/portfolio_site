@@ -9,6 +9,7 @@ import Testimonials from "./Testimonials";
 import Hero from "./Hero";
 import TechReact from "./TechReact";
 import TechTailwind from "./TechTailwind";
+import TechJS from "./TechJS";
 
 export {
   Navbar,
@@ -21,5 +22,6 @@ export {
   Testimonials,
   Hero,
   TechReact,
-  TechTailwind
+  TechTailwind,
+  TechJS
 };
