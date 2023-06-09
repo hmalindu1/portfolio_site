@@ -10,6 +10,8 @@ import Hero from "./Hero";
 import TechReact from "./TechReact";
 import TechTailwind from "./TechTailwind";
 import TechJS from "./TechJS";
+import Button from "./Button";
+import Intro from "./Intro";
 
 export {
   Navbar,
@@ -23,5 +25,7 @@ export {
   Hero,
   TechReact,
   TechTailwind,
-  TechJS
+  TechJS,
+  Button,
+  Intro
 };
