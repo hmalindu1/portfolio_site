@@ -3,7 +3,7 @@ import styles from "../style";
 import TechReact from "./TechReact";
 import TechTailwind from "./TechTailwind";
 import TechJS from "./TechJS";
-
+import Button from "./Button";
 /**
  * Renders the hero section of the webpage with a profile image, name, job description, and contact button.
  *
@@ -15,13 +15,12 @@ const Hero = () => (
     <div
       className={`flex-1 ${styles.flexStart} flex-col xl:px-0 sm:px-16 px-6 mb-40 `}
     >
+      {/* Hero Title */}
       <div className="flex flex-row flex-1 justify-between items-center w-full">
         <h2 className="flex-1 font-poppins font-light ss:text-[30px] text-white">
           Trying to make an impact <br className="sm:block hidden" />{" "}
           <span className="font-poppins font-medium ss:text-[70px] leading-[70px]">
-            to the World{" "}
-            <span className="earth">
-            </span>
+            to the World <span className="earth"></span>
           </span>{" "}
           <br className="sm:block hidden" />{" "}
           <span className="font-poppins font-medium ss:text-[40px] leading-[50px]">
@@ -61,11 +60,7 @@ const Hero = () => (
         away.{" "}
       </p>
       {/* Contact button */}
-      <button
-        className={`text-black rounded-full font-poppins mt-5 font-semibold transition-all duration-500 bg-gradient-to-tl from-blue-500 via-purple-500 to-blue-500 bg-size-200 bg-pos-0 hover:bg-pos-100 py-2 px-4 transform hover:scale-110`}
-      >
-        Contact
-      </button>
+      <Button styles="mt-10" />
     </div>
     {/* Right side of the hero section */}
     <div
@@ -76,11 +71,13 @@ const Hero = () => (
         <TechJS />
       </div>
       {/* Profile image */}
-      <img
-        src={profile_image}
-        alt="propic"
-        className="w-[65%] h-[100%] relative z-[5] ml-[-10px]"
-      />
+      <div className="image-fade w-[65%] h-[100%] ml-[-10px] relative z-[5]">
+        <img
+          src={profile_image}
+          alt="propic"
+          className="w-full h-full object-cover"
+        />
+      </div>
       {/* React logo */}
       <div className="ss:flex hidden md:mr-4 mr-0 ml-[-100px]">
         <TechReact />
