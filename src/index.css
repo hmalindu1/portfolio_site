@@ -137,17 +137,17 @@
   box-shadow: var(--card-shadow);
 }
 
-.feedback-container .feedback-card:last-child {
+.feedback-container .intro-card:last-child {
   margin-right: 0px;
 }
 
-.feedback-card {
-  background: transparent;
-}
-
-.feedback-card:hover {
+.intro-card {
   background: var(--black-gradient);
 }
+
+/* .intro-card:hover {
+  background: var(--black-gradient);
+} */
 
 .blue__gradient {
   background: linear-gradient(180deg, rgba(188, 165, 255, 0) 0%, #072949 100%);
@@ -337,3 +337,13 @@
   mask-image: linear-gradient(to bottom, rgba(0, 0, 0, 1) 0%, rgba(0, 0, 0, 1) 50%, rgba(0, 0, 0, 0) 90%);
 }
 
+.websmith-gradient {
+  background: linear-gradient(
+    50deg,
+    #5100ff 0%,
+    #6803a6 100%
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
