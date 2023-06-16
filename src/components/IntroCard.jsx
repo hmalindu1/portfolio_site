@@ -13,26 +13,32 @@ const IntroCard = () => (
       {" "}
       Developer + Designer
     </p>
-    <h1
-      className={`${styles.flexCenter} font-thirsty font-extralight text-[50px] text-dimWhite mt-[-40px] ml-[5px] `}
-    >
-      Websmith
-      <span
-        className={`${styles.flexCenter} font-poppins font-extralight text-[20px] text-dimWhite mt-[20px] ml-[10px]`}
+    <div className="flex flex-row items-baseline gap-[2px]">
+      <h1
+        className={`websmith-gradient font-thirsty font-extralight text-[50px] text-purple-500 mt-[-40px] ml-[5px] `}
+      >
+        Websmith
+      </h1>
+      <h3
+        className={`font-poppins font-extralight text-[20px] text-dimWhite mt-[-40px] ml-[5px] `}
       >
         with
-      </span>
-    </h1>
+      </h3>
+    </div>
+
     <div
       className={`${styles.flexCenter} flex flex-col md:flex-row gap-5 mt-[-5px] ml-[-10px]`}
     >
-      <img src={gold_medal} alt="" className="w-[50px] object-contain" />
-      <div className="flex flex-col">
+      <img src={gold_medal} alt="" className="w-[70px] object-contain" />
+      <div className={`${styles.flexCenter} flex flex-col`}>
         <p className={`font-poppins font-extralight text-[18px] text-white`}>
-          taste of Art
+          Taste in Art
         </p>
         <p className={`font-poppins font-extralight text-[18px] text-white`}>
-          and Experience!
+          and Years of
+        </p>
+        <p className={`font-poppins font-extralight text-[18px] text-white`}>
+          Experience!
         </p>
       </div>
     </div>
