@@ -47,12 +47,12 @@
 .text-gradient {
   background: linear-gradient(
     50deg,
-    #e6defa 0.89%,
-    #e4bef5 17.23%,
+    #ebdefa 0.89%,
+    #d7bef5 17.23%,
     #cd9df0 42.04%,
-    #c37deb 55.12%,
-    #b15ce6 71.54%,
-    #9133cf 100%
+    #bb7deb 55.12%,
+    #9f5ce6 71.54%,
+    #8633cf 100%
   );
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -338,11 +338,7 @@
 }
 
 .websmith-gradient {
-  background: linear-gradient(
-    50deg,
-    #5100ff 0%,
-    #6803a6 100%
-  );
+  background: linear-gradient(to right, #3b82f6, #a855f7);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
