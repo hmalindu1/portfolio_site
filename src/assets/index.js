@@ -28,6 +28,8 @@ import react_logo from "./react_logo.png";
 import tailwind_logo from "./tailwind_logo.png";
 import JS_logo from "./JS_logo.png";
 import map from "./map.png";
+import intro_image from "./intro_image.png";
+import gold_medal from "./gold_medal.png";
 
 export {
   airbnb,
@@ -59,5 +61,7 @@ export {
   react_logo,
   tailwind_logo,
   JS_logo,
-  map
+  map,
+  intro_image,
+  gold_medal,
 };
