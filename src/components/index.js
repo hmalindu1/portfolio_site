@@ -12,6 +12,7 @@ import TechTailwind from "./TechTailwind";
 import TechJS from "./TechJS";
 import Button from "./Button";
 import Intro from "./Intro";
+import IntroCard from "./IntroCard";
 
 export {
   Navbar,
@@ -27,5 +28,6 @@ export {
   TechTailwind,
   TechJS,
   Button,
-  Intro
+  Intro,
+  IntroCard
 };
