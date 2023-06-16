@@ -38,7 +38,7 @@ const Hero = () => (
         <div className="flex items-center">
           <h1 className="flex-1 font-poppins font-normal ss:text-[20px] text-dimWhite">
             Hi, I am <br className="sm:block hidden" />{" "}
-            <span className="font-thirsty font-medium text-gradient ss:text-[70px] leading-[90px]">
+            <span className="font-thirsty font-medium websmith-gradient ss:text-[70px] leading-[90px]">
               Hashan
             </span>{" "}
             <br className="sm:block hidden" />
